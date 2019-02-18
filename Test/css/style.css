@@ -1,4 +1,4 @@
-/*----------------------------------------------------
+335/*----------------------------------------------------
 @File: Default Styles
 @Author: Rocky
 @URL: http://wethemez.com
@@ -254,7 +254,7 @@ i:before {
     -ms-transform-origin: 50% 0;
     transform-origin: 50% 0;
     min-width: 250px;
-    background: #171717;
+    background: #767676;
     left: auto;
     right: 0px;
     top: 90%;
@@ -289,7 +289,7 @@ i:before {
 }
 
 .main_menu_area .navbar .navbar-nav li.submenu .dropdown-menu li:hover a {
-  color: #97ccfe;
+  color: #000000;
 }
 
 @media (min-width: 992px) {
@@ -302,26 +302,26 @@ i:before {
 }
 
 .main_menu_area .navbar .navbar-nav li:hover a, .main_menu_area .navbar .navbar-nav li.active a {
-  color: #0b1033;
+  color: #000000;
 }
 
 .main_menu_area.navbar_fixed {
-  position: fixed;
-  width: 100%;
-  top: -70px;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.6);
-  -webkit-transform: translateY(70px);
-  -ms-transform: translateY(70px);
-  transform: translateY(70px);
-  -webkit-transition: background 500ms ease, -webkit-transform 500ms ease;
-  transition: background 500ms ease, -webkit-transform 500ms ease;
-  -o-transition: transform 500ms ease, background 500ms ease;
-  transition: transform 500ms ease, background 500ms ease;
-  transition: transform 500ms ease, background 500ms ease, -webkit-transform 500ms ease;
-  -webkit-transition: transform 500ms ease, background 500ms ease;
-  z-index: 999999;
+    position: fixed;
+    width: 100%;
+    top: -70px;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.3);
+    -webkit-transform: translateY(70px);
+    -ms-transform: translateY(70px);
+    transform: translateY(70px);
+    -webkit-transition: background 500ms ease, -webkit-transform 500ms ease;
+    transition: background 500ms ease, -webkit-transform 500ms ease;
+    -o-transition: transform 500ms ease, background 500ms ease;
+    transition: transform 500ms ease, background 500ms ease;
+    transition: transform 500ms ease, background 500ms ease, -webkit-transform 500ms ease;
+    -webkit-transition: transform 500ms ease, background 500ms ease;
+    z-index: 999999;
 }
 
 .main_menu_area.navbar_fixed .navbar .navbar-nav li a {
@@ -2304,11 +2304,11 @@ i:before {
 }
 
 .f_about_widget p {
-  font-size: 15px;
-  line-height: 28px;
-  color: #fff;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
+    font-size: 15px;
+    line-height: 28px;
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
 }
 
 .f_insta_widget ul {
@@ -2339,7 +2339,7 @@ i:before {
   width: 100%;
   border-radius: 0px;
   border: none;
-  height: 52px;
+  height: 75px;
   padding: 0px 30px;
   font-size: 12px;
   font-family: "Roboto", sans-serif;
@@ -2392,17 +2392,17 @@ i:before {
 
 .footer_copyright {
     overflow: hidden;
-    background: #11174b;
-    padding: 35px 0px;
+    background: #54A5D9;
+    padding: 25px 0px;
 }
 
 .footer_copyright .float-sm-left h5 {
     font-size: 20px;
     color: #FFFFFF;
-    font-family: "Roboto", sans-serif;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
     text-transform: uppercase;
     font-weight: 500;
-    line-height: 29px;
+    line-height: px;
 }
 
 .footer_copyright .float-sm-right ul li {
@@ -2412,7 +2412,7 @@ i:before {
 
 .footer_copyright .float-sm-right ul li a {
   font-size: 14px;
-  color: #2a2f56;
+  color: #FFFFFF;
   -webkit-transition: all 400ms linear 0s;
   -o-transition: all 400ms linear 0s;
   transition: all 400ms linear 0s;
@@ -2423,7 +2423,7 @@ i:before {
 }
 
 .footer_copyright .float-sm-right ul li:hover a {
-  color: #fff;
+  color: #7674C5;
 }
 
 /* End Footer Area css
