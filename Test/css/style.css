@@ -100,7 +100,10 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .p_100 {
-  padding: 100px 0px;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 20px;
 }
 
 iframe {
@@ -2279,13 +2282,16 @@ i:before {
 /* Footer Area css
 ============================================================================================ */
 .footer_widget_area {
-  background: url(../img/footer-bg.jpg) no-repeat scroll center center;
-  background-size: cover;
-  padding: 130px 0px 115px 0px;
+    background: url(../img/footer-bg.jpg) no-repeat scroll center center;
+    background-size: cover;
+    padding-top: 70px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 115px;
 }
 
 .f_title {
-  padding-bottom: 45px;
+  padding-bottom: 35px;
 }
 
 .f_title h3 {
