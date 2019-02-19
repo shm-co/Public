@@ -314,7 +314,7 @@ i:before {
     top: -70px;
     left: 0;
     right: 0;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.2);
     -webkit-transform: translateY(70px);
     -ms-transform: translateY(70px);
     transform: translateY(70px);
@@ -1479,10 +1479,10 @@ i:before {
 }
 
 .touch_details p {
-  font-size: 15px;
-  line-height: 28px;
-  font-family: "Roboto", sans-serif;
-  color: #7c8d93;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: "Roboto", sans-serif;
+    color: #7c8d93;
 }
 
 .touch_details h5 {
@@ -2287,7 +2287,7 @@ i:before {
     padding-top: 70px;
     padding-right: 0px;
     padding-left: 0px;
-    padding-bottom: 115px;
+    padding-bottom: 100px;
 }
 
 .f_title {
