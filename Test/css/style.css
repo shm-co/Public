@@ -2393,17 +2393,21 @@ i:before {
 }
 
 .f_subs_widget .input-group .input-group-btn .submit_btn:hover {
-  border-color: #8cc4fb;
+  border-color: #D72C42;
 }
 
 .footer_copyright {
     overflow: hidden;
-    background: #54A5D9;
-    padding: 25px 0px;
+    background-color: #1F1B20;
+    padding: 14px 0px;
+    background-image: -webkit-repeating-linear-gradient(0deg,rgba(26,148,227,1.00) 0%,rgba(30,42,56,1.00) 64.77%,rgba(31,27,32,1.00) 100%);
+    background-image: -moz-repeating-linear-gradient(0deg,rgba(26,148,227,1.00) 0%,rgba(30,42,56,1.00) 64.77%,rgba(31,27,32,1.00) 100%);
+    background-image: -o-repeating-linear-gradient(0deg,rgba(26,148,227,1.00) 0%,rgba(30,42,56,1.00) 64.77%,rgba(31,27,32,1.00) 100%);
+    background-image: repeating-linear-gradient(90deg,rgba(26,148,227,1.00) 0%,rgba(30,42,56,1.00) 64.77%,rgba(31,27,32,1.00) 100%);
 }
 
 .footer_copyright .float-sm-left h5 {
-    font-size: 20px;
+    font-size: 16px;
     color: #FFFFFF;
     font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
     text-transform: uppercase;
@@ -2429,7 +2433,7 @@ i:before {
 }
 
 .footer_copyright .float-sm-right ul li:hover a {
-  color: #7674C5;
+  color: #FF0000;
 }
 
 /* End Footer Area css
