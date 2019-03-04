@@ -206,7 +206,7 @@ i:before {
 }
 
 .main_menu_area .navbar .navbar-toggler span:last-child {
-  margin-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 @media (min-width: 992px) {
